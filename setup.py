@@ -27,7 +27,7 @@ def install():
 		if os.path.exists(install_dir):
 			print("{} already exists on this computer, still okay to install (Y/N)")
 			user_response = input()
-			if input.lower() == "y":
+			if user_response.lower() == "y":
 				Repo.clone_from(git_url, install_dir)
 				install_confirmed = True
 		else:
