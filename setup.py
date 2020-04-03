@@ -34,11 +34,6 @@ def install():
 			Repo.clone_from(git_url, install_dir)
 			install_confirmed = True
 
-	# save installation directory in config file for updates
-	with open("{}\\Starcraft Replay Scanner\\install_config.txt".format(install_dir), "w") as ic:
-		ic.write("directory={}".format(install_dir))
-		ic.write("\n")
-
 def main():
 	install()
 	
