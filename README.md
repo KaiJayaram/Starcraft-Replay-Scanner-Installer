@@ -20,7 +20,7 @@ Download this repo using the clone/download button above. Then double click the 
 
 
 # Usage
-Run the starcraft_replay_scanner.bat file
+Run the starcraft_replay_scanner.exe file
 On first usage it will ask you to give it:
 - the absolute path to your starcraft replays folder (it will scan subdirectories so you can give the accounts folder C:\Users\{$username}\Documents\StarCraft II\Accounts in windows)
 - the name of the output csv file (this is where the output is palced
