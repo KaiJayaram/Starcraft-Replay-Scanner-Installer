@@ -40,7 +40,7 @@ class GUI():
 
 
 	def install(self):
-		res = install(self.loc_entry_string.get())
+		res = install(self.installer_entry.get())
 		if not res:
 			self.canvas.create_window(275,250, window=self.error_text)
 		else:
