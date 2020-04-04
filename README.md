@@ -3,7 +3,7 @@ A Daemon that periodically scans for new starcraft 2 replays and uploads them to
 
 Code and other info on the project can be found here: https://github.com/KaiJayaram/Starcraft-Replay-Scanner 
 
-This Repo is just to make install easier on non-get users
+This Repo is just to make install easier (with gui rather than git pull)
 
 Replay scanning for this project makes use of the following libraries:
 - https://github.com/eagleflo/mpyq
@@ -16,7 +16,7 @@ date,map,you,opponent,your race,opponent race,your mmr,opponent mmr,your apm,opp
 Everything except details is autofilled (details is for you to list any notes you might have about the game)
 
 # Installation
-Download this repo using the clone/download button above. Then double click the install.bat file to run it and follow the prompts.
+Download this repo using the clone/download button above. Then double click the SRSInstaller.exe file to run the installer.
 
 
 # Usage
